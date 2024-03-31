@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+/* font-family: "Hind Siliguri", sans-serif; */
+
+body {
+    background-color: #423F3E;
+}
+
+:root {
+    --black-backgroud: #171010;
+    --white-text: #fff;
+    --orange-button: #FFA447;
+    --background-button: #423F3E;
+    --backgroun-gray: #C7C8CC;
+}
+
+.container {
+    background-color: var(--black-backgroud);
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -250px;
+}
+
+.first button {
+    background-color: var(--backgroun-gray);
+    border: none;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    font-style: normal;
+    display: flexbox;
+    flex-direction: row;
+    margin-left: 5.5px;
+    margin-top: 5em;
+}
+
+.second button {
+    color: var(--white-text);
+    background-color: var(--background-button);
+    border: none;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    font-style: normal;
+    display: flexbox;
+    flex-direction: row;
+    margin-left: 5.5px;
+    margin-top: 10px;
+}
+
+.third button {
+    color: var(--white-text);
+    background-color: var(--background-button);
+    border: none;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    font-style: normal;
+    display: flexbox;
+    flex-direction: row;
+    margin-left: 5.5px;
+    margin-top: 10px;
+}
+
+.fourth button {
+    color: var(--white-text);
+    background-color: var(--background-button);
+    border: none;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    font-style: normal;
+    display: flexbox;
+    flex-direction: row;
+    margin-left: 5.5px;
+    margin-top: 10px;
+}
+
+.fifth button {
+    color: var(--white-text);
+    background-color: var(--background-button);
+    border: none;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    font-style: normal;
+    display: flexbox;
+    flex-direction: row;
+    margin-left: 5.5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#division {
+    background-color: var(--orange-button);
+    color: var(--white-text);
+}
+
+#multiplcation {
+    background-color: var(--orange-button);
+}
+
+#less {
+    background-color: var(--orange-button);
+}
+
+#plus {
+    background-color: var(--orange-button);
+}
+
+#same {
+    background-color: var(--orange-button);
+    margin-left: 3.2em;
+}
+
+#result {
+    position: absolute;
+    color: var(--white-text);
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 50px;
+    right: 0;
+    margin-right: 0.4em;
+}
+
+.square-links {
+    position: absolute;
+    width: 60px;
+    height: 250px;
+    background-color: var(--white-text);
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    top: 50%;
+    right: 0;
+    margin-top: -125px;
+}
+
+.square-links ul {
+    list-style-type: none;
+    margin-top: 4em;
+    margin-left: -1.5em;
+}
+
+.square-links ul li {
+    margin-top: 3em;
+    cursor: pointer;
+}
